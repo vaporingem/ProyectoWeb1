@@ -1,0 +1,37 @@
+.boton-volver {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #555;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.boton-volver:hover {
+  background-color: #45a049;
+}
+html{
+  background-color: #2BAE51;
+}
+h1{
+  color: white;
+  font-family: courier;
+  text-align: center;
+}
+b{
+  color: gray;
+}
+p{
+  color: white;
+}
+table{
+  background-color: yellow;
+  border: 1px solid black;
+}
+td{
+  background-color: green;
+  border: 1px solid black;
+}
