@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Comentarios</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+    <a href="index.html" class="boton-volver">Volver a la Página Principal</a>
+    
+    <div class="comment-section">
+        <h1>Sección de Comentarios</h1>
+        <form id="commentForm">
+            <input type="text" id="username" placeholder="Nombre de usuario" required>
+            <textarea id="comment" placeholder="Escribe tu comentario" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="commentsContainer"></div>
+    </div>
+    <script src="blog.js"></script>
+</body>
+</html>
