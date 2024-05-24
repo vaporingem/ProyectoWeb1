@@ -1,0 +1,47 @@
+html{
+  background-color: #2BAE51;
+}
+h1{
+  color: white;
+  font-family: courier;
+  text-align: center;
+}
+h2{
+  color: white;
+  font-family: courier;
+}
+h4{
+  color: black;
+  font-family: courier;
+  text-align: center;
+}
+p{
+  color: white;
+}
+ol li{
+  color: lightgray;
+}
+table{
+  background-color: yellow;
+  border: 1px solid black;
+}
+td{
+  background-color: green;
+  border: 1px solid black;
+}
+b{
+  color: gray;
+}
+.boton-volver {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #555;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.boton-volver:hover {
+  background-color: #45a049;
