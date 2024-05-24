@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario Green Tech</title>
+    <link rel="stylesheet" href="cuestionario.css">
+</head>
+<body>
+    <div class="container">
+
+        <a href="index.html" class="boton-volver">Volver a la Página Principal</a>
+        
+        <h1>Cuestionario sobre Energías Renovables</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>Pregunta 1: ¿Cuál de las siguientes tecnologías se considera una forma de energía renovable?</p>
+                <label><input type="radio" name="question1" value="A"> A) Energía nuclear</label><br>
+                <label><input type="radio" name="question1" value="B"> B) Energía eólica</label><br>
+                <label><input type="radio" name="question1" value="C"> C) Energía fósil</label><br>
+                <label><input type="radio" name="question1" value="D"> D) Energía térmica</label>
+            </div>
+            <div class="question">
+                <p>Pregunta 2: ¿Cuál es el principal beneficio de la energía solar?</p>
+                <label><input type="radio" name="question2" value="A"> A) Genera residuos nucleares</label><br>
+                <label><input type="radio" name="question2" value="B"> B) Produce emisiones de dióxido de carbono</label><br>
+                <label><input type="radio" name="question2" value="C"> C) Es inagotable y reduce la dependencia de combustibles fósiles</label><br>
+                <label><input type="radio" name="question2" value="D"> D) Es más cara que otras formas de energía</label>
+            </div>
+            <div class="question">
+                <p>Pregunta 3: ¿Qué es la "casa pasiva" en el contexto de la construcción sostenible?</p>
+                <label><input type="radio" name="question3" value="A"> A) Una casa sin ventanas</label><br>
+                <label><input type="radio" name="question3" value="B"> B) Una casa con aislamiento insuficiente</label><br>
+                <label><input type="radio" name="question3" value="C"> C) Una casa diseñada para maximizar la eficiencia energética</label><br>
+                <label><input type="radio" name="question3" value="D"> D) Una casa construida con materiales reciclados exclusivamente</label>
+            </div>
+            <div class="question">
+                <p>Pregunta 4: ¿Cuál de las siguientes opciones describe mejor la economía circular?</p>
+                <label><input type="radio" name="question4" value="A"> A) Un sistema económico basado en la producción en masa y el consumo rápido</label><br>
+                <label><input type="radio" name="question4" value="B"> B) Un sistema económico donde los productos se diseñan para ser reutilizados y reciclados, minimizando los residuos</label><br>
+                <label><input type="radio" name="question4" value="C"> C) Un sistema económico que depende del uso continuo de recursos no renovables</label><br>
+                <label><input type="radio" name="question4" value="D"> D) Un sistema económico que no toma en cuenta el impacto ambiental</label>
+            </div>
+            <div class="question">
+                <p>Pregunta 5: ¿Qué significa "carbono neutral"?</p>
+                <label><input type="radio" name="question5" value="A"> A) Una situación en la que se eliminan todas las emisiones de carbono</label><br>
+                <label><input type="radio" name="question5" value="B"> B) El equilibrio entre las emisiones de carbono producidas y las eliminadas de la atmósfera</label><br>
+                <label><input type="radio" name="question5" value="C"> C) Una tecnología que no utiliza carbono en absoluto</label><br>
+                <label><input type="radio" name="question5" value="D"> D) Un tipo de combustible fósil más limpio</label>
+            </div>
+            <button type="button" onclick="calificar()">Calificar</button>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="cuestionario.js"></script>
+</body>
+</html>
